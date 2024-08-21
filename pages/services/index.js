@@ -29,9 +29,13 @@ const Services = () => {
               initial='hidden' 
               animate='show'
               exit='hidden'
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+              className='mb-4 max-w-[400px] mx-auto lg:mx-0 font-semibold'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eveniet dignissimos distinctio tempore harun laudantium.
+              "Elevate your brand with our expert solutions: <br />
+              from captivating designs and strategic branding <br /> 
+              to engaging content and optimized development. <br /> 
+              Let’s create something extraordinary together."
+              
             </motion.p>
           </div>
           
