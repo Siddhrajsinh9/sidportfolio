@@ -29,9 +29,11 @@ const Work = () => {
               initial='hidden' 
               animate='show'
               exit='hidden'
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+              className='mb-4 max-w-[400px] mx-auto lg:mx-0 font-semibold'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eveniet dignissimos distinctio tempore harun laudantium.
+              "Crafting innovative solutions with precision and<br /> 
+              passion. Transforming your ideas into seamless, <br />
+              high-performance digital experiences."
             </motion.p>
           </div>
           
