@@ -24,27 +24,27 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Crafting unique and memorable brand identities that resonate with your audience and set you apart in the market.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Creating visually stunning & user-friendly designs that not only elevate your brand’s identity but also engage your customers effectively.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Building robust and scalable websites with the latest technologies to ensure optimal performance and functionality.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Producing compelling and persuasive content that drives action and communicates your message clearly.',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Enhancing your online visibility and driving organic traffic through strategic optimization and effective search engine techniques.',
   },
 ];
 
@@ -72,12 +72,12 @@ const ServiceSlider = () => {
       {serviceData.map((item,index) => {
         return (
           <SwiperSlide key={index}>
-            <div className='bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300'>
+            <div className='bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-4 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300'>
               {/* icon */}
               <div className='text-4xl text-accent mb-4'>{item.icon}</div>
               {/* title & desc */}
               <div className='mb-8'>
-                <div className='mb-2 text-lg'>{item.title}</div>
+                <div className='mb-2 text-xl'>{item.title}</div>
                 <p className='max-w-[350px] leading-normal'>{item.description}</p>
               </div>
               {/* arrow */}
