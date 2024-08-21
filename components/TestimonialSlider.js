@@ -5,21 +5,42 @@ const testimonialSlider = [
     name: 'Manrajsinh',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Exceptional work! The team delivered a robust and scalable website that exceeded our expectations. Communication was seamless throughout the project.',
   },
   {
     image: '/t-avt-2.png',
     name: 'Mahipalsinh',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Highly impressed with the level of expertise and attention to detail. Our new site looks fantastic and performs flawlessly. Would recommend without hesitation.',
   },
   {
     image: '/t-avt-3.png',
     name: 'Harshsinh',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Professional, efficient, and creative. They took our ideas and turned them into a reality with exceptional coding and design skills.',
+  },
+  {
+    image: '/t-avt-1.png',
+    name: 'Mahipatsinh',
+    position: 'Customer',
+    message:
+      'The team not only met our tight deadline but also delivered a product that was well beyond our original vision. Excellent work and a pleasure to work with.',
+  },
+  {
+    image: '/t-avt-2.png',
+    name: 'Yuvrajsinh',
+    position: 'Customer',
+    message:
+      'Fantastic experience from start to finish. They provided clear updates, tackled challenges head-on, and delivered a top-notch solution.',
+  },
+  {
+    image: '/t-avt-3.png',
+    name: 'Divyrajsinh',
+    position: 'Customer',
+    message:
+      'Outstanding service and technical skills. The development process was smooth, and the end result is a beautifully designed, highly functional website.',
   },
 ];
 
